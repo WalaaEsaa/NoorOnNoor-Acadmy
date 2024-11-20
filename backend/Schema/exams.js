@@ -2,11 +2,15 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const examSchema = new Schema({
-    class: String,
-    subjectName: Number,
-    studentName:String,
-    studentPhone:Number,  
-    grade:Number
+    examID:Number,
+    classID: Number,
+    subjectID: Number,
+    link:String,
+    exameDate:Date,
+    examTitle:String,
+    totalGrad:Number,
+    ExamMaker:String
+   
    
     
      
